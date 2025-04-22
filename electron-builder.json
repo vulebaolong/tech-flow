@@ -1,0 +1,13 @@
+{
+   "appId": "com.tech.folow",
+   "productName": "Tech Folow",
+   "files": ["dist-electron", "dist-react"],
+   "icon": "./logo/logo-mac.png",
+   "extraResources": ["dist-electron/preload.cjs", "src/assets/**"],
+   "mac": {
+      "target": ["dmg", "zip"]
+   },
+   "win": {
+      "target": ["portable", "msi"]
+   }
+}
