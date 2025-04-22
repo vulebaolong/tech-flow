@@ -30,7 +30,7 @@ export default function Version() {
                <Text ta={`center`} fz={`xs`} c={"dimmed"}>
                   v{getAppVersion.data.latest} - Latest -{" "}
                   <Anchor
-                     href={`https://github.com/vulebaolong/record-reminder/releases/tag/v${getAppVersion.data.latest}`}
+                     href={`https://github.com/vulebaolong/tech-flow/releases/tag/v${getAppVersion.data.latest}`}
                      underline="always"
                      c={"dimmed"}
                      inherit
